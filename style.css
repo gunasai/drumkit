@@ -12,6 +12,7 @@ body,html {
 #instructions {
   padding-top: 20px;
   padding-bottom: 10px;
+  text-align: center;
 }
 
 #instructions h1 {
@@ -23,6 +24,7 @@ body,html {
   min-height: 100vh;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
 .key {
