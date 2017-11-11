@@ -1,6 +1,6 @@
 html {
   font-size: 10px;
-  background: url(http://i.imgur.com/b9r5sEL.jpg) bottom center;
+  background: url(drum.jpg);
   background-size: cover;
 }
 body,html {
@@ -9,9 +9,17 @@ body,html {
   font-family: sans-serif;
 }
 
+#instructions {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#instructions h1 {
+  padding-bottom: 10px;
+}
+
 .keys {
   display: flex;
-  flex: 1;
   min-height: 100vh;
   align-items: center;
   justify-content: center;
@@ -29,6 +37,7 @@ body,html {
   color: white;
   background: rgba(0,0,0,0.4);
   text-shadow: 0 0 .5rem black;
+  cursor: pointer;
 }
 
 .playing {
