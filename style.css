@@ -51,6 +51,9 @@ body,html {
   transform: scale(1.1);
   border-color: #ffc600;
   box-shadow: 0 0 1rem #ffc600;
+  position: relative;
+  top: 7px;
+  box-shadow: none;
 }
 
 kbd {
